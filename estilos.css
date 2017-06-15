@@ -1,11 +1,11 @@
+
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 @import url(contenedores.css);
 @import url(imagenes.css);  
 @import url(footer.css);
 
-/*VERSION DESKTOP*/
 
-{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -54,13 +54,11 @@ main{
 
 body{
     width: 100%;
-    background-color: #02010a;
+    background-color: black;
     margin-top: 15px;
     margin-bottom: 15px;
        
 }
-
-
 
 nav{
     width: 100%;
@@ -74,7 +72,7 @@ nav{
         color:white;
     }
 
-    a { 
+     a{ 
         text-decoration: underline; 
     }
     
@@ -94,14 +92,13 @@ nav{
         display: flex;
         width: 100%;
         flex-direction: row;
-        margin: auto;
-        background-color: #d5c75f;
+        margin: auto;     
     } 
 
     
     .contenedor2 img{
         width: 100%; 
-        
+        background-color: #d5c75f;
     }
     
     .contenedor1{
@@ -138,16 +135,16 @@ nav{
     section{
         width: 100%;
     }
-
-
       
-    /*MEDIA QUERYS PARA MOVIL*/
 
     @media(max-width: 500px){
+    .General{
+        width: 95%;
+    }
     
     main{
-        padding: 0px;
-    }
+    padding: 0px;
+}
     
     header{
         width: 95%;
@@ -155,20 +152,17 @@ nav{
         font-size: 16px;
         height: 120px;
     }
-        
     body{
         width: 100%;
         margin-top: 15px;
-        margin-bottom: 15px;  
+        margin-bottom: 15px;
+        background-color: black;
     }
        
     nav ul{
         font-size: 20px;
         text-align: center;
     }
-        
-        
-    /*CONTENEDORES */
     
     .contenedor1{
         width: 95%;
@@ -179,8 +173,9 @@ nav{
 }
 
     .contenedor2{
-        width: 95%;    
-        display: inline; 
+    width: 100%;    
+    display: inline;
+        
 }
     
     .contenedor2 img{
@@ -188,19 +183,7 @@ nav{
         margin-top: auto;
         margin-bottom: auto;
 }   
-        
-    .contenedor3{
-        width: 90%;
-        display: inline;
-        
-    }
-        
-    .contenedor3 img{
-        width: 95%;    
-    }    
     
-    /*IMAGENES PRINCIPALES */
-        
     #imagen1 img{
         width: 80%;
         height: auto;
@@ -225,13 +208,21 @@ nav{
         box-shadow: 2px;
         margin-left: 40px;
         margin-top: 15px;
-        float: left;  
+        float: left;
+    
 }    
     
-    
-    
-/*PIE DE PAGINA*/
+    .contenedor3{
+        width: 90%;
+        display: inline;
         
+    }
+    .contenedor3 img{
+        width: 95%;
+        background-color: #d5c75f;
+    }
+    
+    
 .pie-de-pagina{
         width: 95%;
         display:flex;
@@ -239,8 +230,6 @@ nav{
         flex-direction: row;
         font-family: "Dancing Script";
 }
- 
-/*GALERIA DE FOTOS*/
         
 #Foto1
 {
@@ -313,18 +302,31 @@ nav{
 }    
 }
 
+.Principal{
+    width: 100%;   
+}
 
+.contenedor1{
+    width: 100%;
+   
+}
+
+.contenedor2{
+    width: 100%;
+    background-color: #d5c75f;
+    
+}
+
+.contenedor3{
+    width: 100%;
     
 }
 @media only screen and (max-width: 500px) {
    .contenedor2{   
-    background-color: #d5c75f;  
+    background-color: red;
+    
 }
-    .contenedor3{
-    background-color:  #d5c75f;   
-    }
 }
-
 
 
 

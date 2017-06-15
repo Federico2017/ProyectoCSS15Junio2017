@@ -23,6 +23,10 @@
  transform: rotate(10deg);
  border-top-right-radius: 2px #02010a;
 }
+#imagen2: hover{
+    transform: rotate();
+    transform: rotateX(0deg);
+}
 
 #imagen3 img{
     width: 80%;

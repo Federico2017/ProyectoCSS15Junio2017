@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url(contenedores.css);
+@import url(imagenes.css);  
+@import url(footer.css);
+
+/*VERSION DESKTOP*/
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header {
+    background-color: #5b7989;
+    text-align: center;
+	text-shadow:2px;
+    color: white;
+    border-radius:10px 10px 0px 0px;
+	font-family: "Dancing Script";  
+    padding: 0px;
+    width: 100%;
+    height: 150px;
+    font-size: 9px;
+}
+
+section{
+    width: 100%;
+}
+
+@keyframes slidein {
+    0% {
+    margin-top: 150%;
+    }
+    60% {
+    margin-top: -5%;
+    }
+    100% {
+    margin-top: 0%;
+    }
+}  
+
+header{
+    animation-name: slidein;
+    animation-duration: 0.5s;
+}
+main{
+    padding: 0px;
+}
+
+body{
+    width: 100%;
+    background-color: #02010a;
+    margin-top: 15px;
+    margin-bottom: 15px;
+       
+}
+
+
+
+nav{
+    width: 100%;
+    color: white;
+}
+
+    .menu ul li a{
+        width: 100%;
+        text-align: center;  
+        font-size: 20px;
+        color:white;
+    }
+
+    a { 
+        text-decoration: underline; 
+    }
+    
+    a:hover{ 
+        text-decoration:none; 
+    }
+
+    a:active{
+        text-decoration: none;
+}
+
+    .General{
+        max-width: 900px;
+    }
+  
+    .contenedor2{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        margin: auto;
+        background-color: #d5c75f;
+    } 
+
+    
+    .contenedor2 img{
+        width: 100%; 
+        
+    }
+    
+    .contenedor1{
+        width: 100%;
+        background-color: #82c3a6;
+    }
+    
+    .contenedor1 img{
+        width: 100%;
+    }
+    
+    .contenedor3 img{
+        width: 100%;
+    }
+    
+    .contenedor3{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        margin: auto;
+        background-color: #d5c75f;
+    }
+    
+    header{
+        text-align: left;
+        font-size: 20px;
+    }
+    
+    .menu{
+        text-align: right;
+        font-size: 25px;
+    }
+    
+    section{
+        width: 100%;
+    }
+
+
+      
+    /*MEDIA QUERYS PARA MOVIL*/
+
+    @media(max-width: 500px){
+    
+    main{
+        padding: 0px;
+    }
+    
+    header{
+        width: 95%;
+        text-align: center;
+        font-size: 16px;
+        height: 120px;
+    }
+        
+    body{
+        width: 100%;
+        margin-top: 15px;
+        margin-bottom: 15px;  
+    }
+       
+    nav ul{
+        font-size: 20px;
+        text-align: center;
+    }
+        
+        
+    /*CONTENEDORES */
+    
+    .contenedor1{
+        width: 95%;
+    }
+    
+    .contenedor1 img{
+        width: 95%;  
+}
+
+    .contenedor2{
+        width: 95%;    
+        display: inline; 
+}
+    
+    .contenedor2 img{
+        width: 100%;
+        margin-top: auto;
+        margin-bottom: auto;
+}   
+        
+    .contenedor3{
+        width: 90%;
+        display: inline;
+        
+    }
+        
+    .contenedor3 img{
+        width: 95%;    
+    }    
+    
+    /*IMAGENES PRINCIPALES */
+        
+    #imagen1 img{
+        width: 80%;
+        height: auto;
+        box-shadow: 2px 2px 2px #02010a;
+        box-sizing: border-box;
+        margin-top: 10px;
+        margin-bottom: 10px; 
+}
+        
+    #imagen2 img{
+        width: 80%;
+        height: auto;
+        box-shadow: 2px;
+        float: left;
+        margin-left: 40px;
+        margin-top: 20px;
+}   
+        
+    #imagen3 img{
+        width: 80%;
+        height: auto;
+        box-shadow: 2px;
+        margin-left: 40px;
+        margin-top: 15px;
+        float: left;  
+}    
+    
+    
+    
+/*PIE DE PAGINA*/
+        
+.pie-de-pagina{
+        width: 95%;
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        font-family: "Dancing Script";
+}
+ 
+/*GALERIA DE FOTOS*/
+        
+#Foto1
+{
+	width: 100%;
+    height: 100%;
+	padding: 20px;
+	border-color: 1px;
+	float: left;
+	box-shadow: 2px #02010a;
+	-webkit-filter: blur(5px);
+	filter: blur(5px);
+}
+
+#Foto2
+{
+	width: 100%;
+    height: 100%;
+	padding: 20px;
+	border-color: 1px;
+	float: left;
+	box-shadow: 2px #02010a;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+#Foto3
+{
+	width: 100%;
+    height: 100%;
+	padding: 20px;
+	border-color: 1px;
+	float: left;
+	box-shadow: 2px #02010a;
+	-webkit-filter: sepia(90%);
+	filter: sepia(90%);
+}
+
+#Foto4
+{
+	width: 100%;
+    height: 100%;
+	padding: 20px;
+	border-color: 1px;
+	float: left;
+	box-shadow: 2px #02010a;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+#Foto5
+{
+	width: 100%;
+    height: 100%;
+	padding: 20px;
+	border-color: 1px;
+	float: left;
+	box-shadow: 2px #02010a;
+}
+
+#Foto6
+{
+	width: 100%;
+    height: 100%;
+	padding: 20px;
+	border-color: 1px;
+	float: left;
+	box-shadow: 2px #02010a;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}    
+}
+
+
+    
+}
+@media only screen and (max-width: 500px) {
+   .contenedor2{   
+    background-color: #d5c75f;  
+}
+    .contenedor3{
+    background-color:  #d5c75f;   
+    }
+}
+
+
+
+
+

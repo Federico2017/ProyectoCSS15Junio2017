@@ -1,0 +1,21 @@
+.pie-de-pagina{
+	width: 100%;
+	height: auto;
+    column-count: 4;
+    background-color: #C6d5c5;
+    border-radius: 0px 0px 10px 10px;
+    
+}
+
+.columna-pie{
+    width: 100%;
+	font-family: "Dancing Script";
+	font-size: 15px;
+    margin: auto;
+    text-align: center;
+    background-color: #C6d5c5;
+    height: 170px;
+    clear: both;
+    border-radius: 0 0 10px 10px;
+    
+}
